@@ -1,0 +1,87 @@
+
+
+.Fieldtext {
+    /* margin: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Greeting {
+    text-align: center;
+}
+
+.submitField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StartAndScore{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ending {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.startButton {
+    border-radius: 8px;
+    background-color: rgb(142, 175, 218);
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: node;
+    font-size: 10px;
+    
+}
+
+.startButton:hover {
+    background-color: rgb(92, 125, 168);
+}
+
+.submitButton {
+    border-radius: 4px;
+    background-color: rgb(233, 146, 140);
+    color: white;
+    /* padding: 12px 24px; */
+    text-align: center;
+    text-decoration: node;
+    font-size: 10px;
+}
+
+.submitButton:hover {
+    background-color: rgb(183, 96, 90);
+}
+
+.logoutButton {
+
+    border-radius: 12px;
+    background-color: rgb(102, 192, 105);
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: node;
+    font-size: 16px;
+
+}
+
+.logoutButton:hover {
+     background-color: rgb(52, 142, 55);
+}
+
+.logoutButton:hover {
+    background-color: rgb(52, 142, 55);
+}

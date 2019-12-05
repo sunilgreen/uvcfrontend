@@ -1,0 +1,21 @@
+.navDiv {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.titleNav {
+    text-align: center;
+    color: rgb(235, 64, 34, 0.781);
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.titleNav:hover {
+    color: rgba(109, 19, 3, 0.781);
+}
+
