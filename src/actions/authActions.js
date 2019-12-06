@@ -26,7 +26,7 @@ export const registerUser = (userData, history) => dispatch => {
 // Login - get user token
 export const loginUser = userData => dispatch => {
   axios
-    .post("https://verbconj.herokuapp.com/api/users/register/api/users/login", userData)
+    .post("https://verbconj.herokuapp.com/api/users/login", userData)
     .then(res => {
       // Save to localStorage// Set token to localStorage
       const { token } = res.data;
