@@ -1,0 +1,99 @@
+.backToHomeButton2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backToHomeLink2 {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(121, 207, 167);
+    color: white;
+   
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+
+    
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    /* border-left: 2px solid rgb(255, 179, 179); */
+}
+
+.backToHomeLink2:hover {
+    background-color: rgb(71, 157, 117);
+}
+
+.haveAccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.loginButton2 {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(163, 211, 230);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #035c77;
+    border-bottom: 2px solid #035c77;
+    /* border-left: 2px solid #035c77; */
+}
+
+.loginButton2:hover {
+    background-color: rgb(113, 161, 180);
+}
+
+.centerText {
+    padding-top: 15px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+
+.mainForm {
+    align-items: center;
+    text-align: center;
+}
+
+.signUpButton {
+    margin: 20px;
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(241, 124, 124);
+    color: white;
+    border-radius: 12px;
+   
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+
+    
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    /* border-left: 2px solid rgb(255, 179, 179); */
+}
+
+.signUpButton:hover {
+    background-color: rgb(191, 84, 84);
+}
+
