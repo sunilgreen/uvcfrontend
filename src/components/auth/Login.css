@@ -1,3 +1,7 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
 .backToHomeButton {
     display: flex;
     align-items: center;
@@ -12,7 +16,7 @@
     color: white;
    
     text-decoration: none;
-    font-size: 22px;
+    font-size: 12px;
     padding: 10px;
 
     
@@ -23,9 +27,185 @@
     /* border-left: 2px solid rgb(255, 179, 179); */
 }
 
-.backToHomeLink:hover {
-    background-color: rgb(71, 157, 117);
+
+
+.registerLink {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(163, 211, 230);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 8px;
+    padding: 10px;
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #035c77;
+    border-bottom: 2px solid #035c77;
+    /* border-left: 2px solid #035c77; */
 }
+
+.loginBody {
+    padding-bottom: 5px;
+}
+
+.emailField {
+    padding-top: 5px;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.loginDiv {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginButton {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(163, 211, 230);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #035c77;
+    border-bottom: 2px solid #035c77;
+    /* border-left: 2px solid #035c77; */
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+.backToHomeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backToHomeLink {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(121, 207, 167);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+
+    
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    /* border-left: 2px solid rgb(255, 179, 179); */
+}
+
+
+
+.registerLink {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(163, 211, 230);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 8px;
+    padding: 10px;
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #035c77;
+    border-bottom: 2px solid #035c77;
+    /* border-left: 2px solid #035c77; */
+}
+
+.loginBody {
+    padding-bottom: 5px;
+}
+
+.emailField {
+    padding-top: 5px;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.loginDiv {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginButton {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(163, 211, 230);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #035c77;
+    border-bottom: 2px solid #035c77;
+    /* border-left: 2px solid #035c77; */
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+
+.backToHomeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backToHomeLink {
+    text-align: center;
+    border: 2px black;
+    text-align: center;
+    background-color: rgb(121, 207, 167);
+    color: white;
+   
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+    
+
+    /* border-top: 2px solid rgb(255, 179, 179); */
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    /* border-left: 2px solid rgb(255, 179, 179); */
+}
+
+
 
 .registerLink {
     text-align: center;
@@ -45,23 +225,18 @@
 }
 
 .loginBody {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .emailField {
-    padding-top: 20px;
+    padding-top: 15px;
     margin-right: auto;
     display: block;
     align-items: center;
     text-align: center;
 }
 
-.passwordField {
-    margin: auto;
-    display: block;
-    align-items: center;
-    text-align: center;
-}
+
 
 .loginDiv {
     padding-top: 25px;
@@ -78,13 +253,119 @@
     color: white;
    
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
 
     /* border-top: 2px solid rgb(255, 179, 179); */
     border-right: 2px solid #035c77;
     border-bottom: 2px solid #035c77;
     /* border-left: 2px solid #035c77; */
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+    .backToHomeButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .backToHomeLink {
+        text-align: center;
+        border: 2px black;
+        text-align: center;
+        background-color: rgb(121, 207, 167);
+        color: white;
+       
+        text-decoration: none;
+        font-size: 22px;
+        padding: 10px;
+    
+        
+    
+        /* border-top: 2px solid rgb(255, 179, 179); */
+        border-right: 2px solid #333333;
+        border-bottom: 2px solid #333333;
+        /* border-left: 2px solid rgb(255, 179, 179); */
+    }
+    
+    
+    
+    .registerLink {
+        text-align: center;
+        border: 2px black;
+        text-align: center;
+        background-color: rgb(163, 211, 230);
+        color: white;
+       
+        text-decoration: none;
+        font-size: 10px;
+        padding: 10px;
+    
+        /* border-top: 2px solid rgb(255, 179, 179); */
+        border-right: 2px solid #035c77;
+        border-bottom: 2px solid #035c77;
+        /* border-left: 2px solid #035c77; */
+    }
+    
+    .loginBody {
+        padding-bottom: 20px;
+    }
+    
+    .emailField {
+        padding-top: 20px;
+        margin-right: auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    
+    .loginDiv {
+        padding-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .loginButton {
+        text-align: center;
+        border: 2px black;
+        text-align: center;
+        background-color: rgb(163, 211, 230);
+        color: white;
+       
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px;
+    
+        /* border-top: 2px solid rgb(255, 179, 179); */
+        border-right: 2px solid #035c77;
+        border-bottom: 2px solid #035c77;
+        /* border-left: 2px solid #035c77; */
+    }
+}
+
+
+
+
+
+
+.backToHomeLink:hover {
+    background-color: rgb(71, 157, 117);
+}
+
+.passwordField {
+    margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
 }
 
 .loginButton:hover {
