@@ -97,3 +97,13 @@
     background-color: rgb(191, 84, 84);
 }
 
+.red-text {
+    margin: 10px;
+    padding: 5px;
+    color: red;
+}
+
+.theForm {
+    text-align: center;
+}
+
