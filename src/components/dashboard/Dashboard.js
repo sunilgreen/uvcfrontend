@@ -33,9 +33,6 @@ class Dashboard extends Component {
 
         console.log(this.state.verbs[verbIndex][tenseIndex][formIndex]);
         
-        console.log("vs");
-        console.log(this.state.userAttempt);
-        console.log(typeof this.state.userAttempt);
 
         let answer = this.state.verbs[verbIndex][tenseIndex][formIndex];
         console.log(typeof answer);
