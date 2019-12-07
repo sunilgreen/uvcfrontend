@@ -128,7 +128,7 @@ loadVerbs = () => {
 
   getDefaultVerbs = async () => {
     
-    let url = "http://localhost:5000/getverbs";
+    let url = "https://verbconj.herokuapp.com/getverbs";
     //const verbsresponse = await fetch('/getverbs');
     const verbsresponse = await fetch(url);
     console.log(verbsresponse);
